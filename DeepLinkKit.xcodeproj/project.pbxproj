@@ -29,6 +29,7 @@
 		62EE96F61B570B10003D7564 /* DPLProductDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DE025EB01A5F0D37007C4F3A /* DPLProductDataSource.m */; };
 		62EE96F71B570B13003D7564 /* DPLProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = DE87B1F01A5DF49F00204A35 /* DPLProduct.m */; };
 		62EE96F81B570B16003D7564 /* DPLProductTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAD327A19E079D3003C8D65 /* DPLProductTableViewController.m */; };
+		631661D883999137B926B0CB /* DPLDeepLink+MAYExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 6316646EC98FCFF41388CE02 /* DPLDeepLink+MAYExtend.m */; };
 		BCA80D0137FDB7D7BDCE4B1D /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939E4800884A5EF9BDEBAA95 /* Pods_Tests.framework */; };
 		DE025EB11A5F0D37007C4F3A /* DPLProductDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DE025EB01A5F0D37007C4F3A /* DPLProductDataSource.m */; };
 		DE058E0A1A3B46FD00147C04 /* NSString_DPLQuerySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = DE058E091A3B46FD00147C04 /* NSString_DPLQuerySpec.m */; };
@@ -94,6 +95,8 @@
 		62891E8A1B57FE5A00C2AF4F /* DPLMessageRouteHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPLMessageRouteHandler.swift; sourceTree = "<group>"; };
 		62EE96F11B57011D003D7564 /* ReceiverDemoSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReceiverDemoSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		62EE96F31B570891003D7564 /* DPLProductRouteHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPLProductRouteHandler.swift; sourceTree = "<group>"; };
+		6316646EC98FCFF41388CE02 /* DPLDeepLink+MAYExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DPLDeepLink+MAYExtend.m"; sourceTree = "<group>"; };
+		63166F4342F21181BFFC1C4E /* DPLDeepLink+MAYExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DPLDeepLink+MAYExtend.h"; sourceTree = "<group>"; };
 		6B9E60301031FFD1833ECA7A /* Pods-SenderDemo.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SenderDemo.test.xcconfig"; path = "Pods/Target Support Files/Pods-SenderDemo/Pods-SenderDemo.test.xcconfig"; sourceTree = "<group>"; };
 		83D34C3B1B03ECAD00BA6EF1 /* DPLMatchResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPLMatchResult.h; sourceTree = "<group>"; };
 		83D34C3C1B03ECAD00BA6EF1 /* DPLMatchResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPLMatchResult.m; sourceTree = "<group>"; };
@@ -477,6 +480,8 @@
 				DECB32511A87E94B0071C76E /* NSObject+DPLJSONObject.m */,
 				DE1B5F581CB301300086227F /* UINavigationController+DPLRouting.h */,
 				DE1B5F591CB301300086227F /* UINavigationController+DPLRouting.m */,
+				6316646EC98FCFF41388CE02 /* DPLDeepLink+MAYExtend.m */,
+				63166F4342F21181BFFC1C4E /* DPLDeepLink+MAYExtend.h */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -1047,6 +1052,7 @@
 				DE87B1EE1A5DEFD400204A35 /* DPLProductRouteHandler.m in Sources */,
 				DEAD328D19E079D3003C8D65 /* main.m in Sources */,
 				DEAD328919E079D3003C8D65 /* DPLReceiverAppDelegate.m in Sources */,
+				631661D883999137B926B0CB /* DPLDeepLink+MAYExtend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
